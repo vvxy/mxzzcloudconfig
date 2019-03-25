@@ -1,0 +1,87 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+# 102.54.94.97 rhino.acme.com # source server
+# 38.25.63.10 x.acme.com # x client host
+
+# localhost name resolution is handled within DNS itself.
+# 127.0.0.1 localhost
+# ::1 localhost
+#0.0.0.0 account.jetbrains.com
+
+127.0.0.1 dept-8001.com
+127.0.0.1 dept-8002.com
+127.0.0.1 dept-8003.com
+127.0.0.1 consumer-80.com
+127.0.0.1 client.com
+127.0.0.1 eureka-7001.com
+127.0.0.1 eureka-7002.com
+127.0.0.1 eureka-7003.com
+127.0.0.1 dashboard.com
+127.0.0.1 company-8101.com
+127.0.0.1 turbine-9101.com
+127.0.0.1 gateway-9501.com
+127.0.0.1 upload.com
+127.0.0.1 consumer-upload.com
+127.0.0.1 config-7101.com
+
+
+#127.0.0.1 company-8101.com
+#127.0.0.1 turbine.com
+#127.0.0.1 gateway-9501.com
+#127.0.0.1 consumer-upload.com
+
+#127.0.0.1 client.com
+
+#127.0.0.1 send-8401.com
+#127.0.0.1 receive-8402.com
+
+#127.0.0.1 zipkin.com
+
+#127.0.0.1 eureka-5001.com
+#127.0.0.1 eureka-5002.com
+#127.0.0.1 eureka-5003.com
+#127.0.0.1 eureka-config.com
+
+#127.0.0.1 config-7101.com
+#127.0.0.1 config-7102.com
+#127.0.0.1 config-7103.com
+
+#127.0.0.1 config-7201.com
+
+#127.0.0.1 client-8201.com
+
+#127.0.0.1 dashboard.com
+
+#127.0.0.1 upload.com
+
+
+#192.168.68.183 cas.com
+#127.0.0.1 shiro.com
+#192.168.68.193 kafka-single
+#192.168.68.211 rabbitmq-server
+
+#192.168.68.131 activemq-server
+#192.168.68.180 fastdfs-tracker
+#192.168.68.181 fastdfs-storage-a
+#192.168.68.182 fastdfs-storage-b
+
+
+
+#192.168.68.195 kafka-server-a
+#192.168.68.196 kafka-server-b
+#192.168.68.197 kafka-server-c
+
+#0.0.0.0 account.jetbrains.com
