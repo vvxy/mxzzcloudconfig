@@ -12,15 +12,15 @@ spring:
 eureka:
   client: 
     service-url:
-      defaultZone: http://hlxd:82777999@eureka-7001.com:7001/eureka
+      defaultZone: http://hlxd:82777999@eureka-dev.com:7001/eureka
 ---
 server:
   port: 8102
 spring:
-  profiles: default
+  profiles: beta
   application: 
     name: mxzzcloud-config-client
 eureka:
   client: 
     service-url:
-      defaultZone: http://hlxd:82777999@eureka-7001.com:7001/eureka
+      defaultZone: http://hlxd:82777999@eureka-beta.com:7001/eureka
